@@ -1,5 +1,3 @@
-# FOUNDIN-PD Aim 1C
-#### Multi-omic Sequencing of CRISPR-Edited DA Lines 
-
-### Data
+# FOUNDIN-PD Aim 1C: Multi-omic Sequencing of CRISPR-Edited iPSC-derived Dopaminergic Neuronal Cell Lines 
+## Data
 21 samples from 10 PPMI participants of IPSC-derived dopaminergic neuron cell lines were sequenced with 10X Genomics Multiome Single-Cell ATAC + Gene Expression assay across two batches. 3 samples are replicates of PPMI3966 Clone 107, a control participant with no known PD mutation (i.e. SNCA, GBA, and LRRK2). The other 18 samples are obtained from 9 unique participants with a known PD mutation, where one sample is sequenced as is and the other is CRISPR-edited to revert the PD mutation to wildtype (i.e. isoSNCA, isoGBA, and isoLRRK2). A sample metadata file has been uploaded to the GitHub.
