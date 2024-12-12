@@ -1,4 +1,4 @@
-# FOUNDIN-PD Aim 1C: Multi-omic Sequencing of CRISPR-Edited iPSC-derived Dopaminergic Neuronal Cell Lines 
+# FOUNDIN-PD Aim 1C: Multi-omic Sequencing of CRISPR-Edited iPSC-derived Dopaminergic Neuron Cell Lines 
 ## Sample Overview
 21 samples from 10 PPMI participants of IPSC-derived dopaminergic neuron cell lines were sequenced with 10X Genomics Multiome Single-Cell ATAC + Gene Expression assay across two batches.
 
