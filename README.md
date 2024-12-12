@@ -1,9 +1,13 @@
 # FOUNDIN-PD Aim 1C: Multi-omic Sequencing of CRISPR-Edited iPSC-derived Dopaminergic Neuronal Cell Lines 
+## Sample Overview
+21 samples from 10 PPMI participants of IPSC-derived dopaminergic neuron cell lines were sequenced with 10X Genomics Multiome Single-Cell ATAC + Gene Expression assay across two batches.
+
+Three samples (Sample_3, Sample_8, and Sample_21) are replicates of PPMI3966 Clone 107, a control participant with no known PD mutation (i.e. SNCA, GBA, and LRRK2). The other 18 samples are obtained from nine unique participants with a known PD mutation, where one sample is sequenced as is and the other is CRISPR-edited to revert the PD mutation to wildtype (i.e. isoSNCA, isoGBA, and isoLRRK2). A sample metadata file has been uploaded to the GitHub.
+
 ## Data Overview
-21 samples from 10 PPMI participants of IPSC-derived dopaminergic neuron cell lines were sequenced with 10X Genomics Multiome Single-Cell ATAC + Gene Expression assay across two batches. 3 samples are replicates of PPMI3966 Clone 107, a control participant with no known PD mutation (i.e. SNCA, GBA, and LRRK2). The other 18 samples are obtained from 9 unique participants with a known PD mutation, where one sample is sequenced as is and the other is CRISPR-edited to revert the PD mutation to wildtype (i.e. isoSNCA, isoGBA, and isoLRRK2). A sample metadata file has been uploaded to the GitHub.
+RNA+ATAC sequencing data were analyzed using Cell Ranger ARC v2.0.2. 
 
 ## File Structure
-
 ```bash
 FOUNDIN_Suppl
 ├── processed
@@ -63,8 +67,8 @@ FOUNDIN_Suppl
 │   │           ├── atac_peaks.bed
 │   │           ├── atac_possorted_bam.bam
 │   │           ├── atac_possorted_bam.bam.bai
-│   │           ├── cloupe.cloupe
 │   │           ├── per_barcode_metrics.csv
+│   │           ├── cloupe.cloupe
 │   │           ├── summary.csv
 │   │           └── web_summary.html
 │   └── SCRN
@@ -103,7 +107,6 @@ FOUNDIN_Suppl
 │               │       ├── tsne
 │               │       │   └── tsne_projection.csv
 │               │       └── umap
-│               ├── cloupe.cloupe
 │               ├── filtered_feature_bc_matrix
 │               │   ├── barcodes.tsv.gz
 │               │   ├── features.tsv.gz
@@ -118,6 +121,7 @@ FOUNDIN_Suppl
 │               │   ├── features.tsv.gz
 │               │   └── matrix.mtx.gz
 │               ├── raw_feature_bc_matrix.h5
+│               ├── cloupe.cloupe
 │               ├── summary.csv
 │               └── web_summary.html
 └── raw
@@ -133,3 +137,4 @@ FOUNDIN_Suppl
             ├── *_R1_001.fastq.gz
             └── *_R2_001.fastq.gz
  ```
+
